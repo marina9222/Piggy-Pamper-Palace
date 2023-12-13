@@ -198,3 +198,75 @@ hr {
 .btn:hover {
   background-color: #ecd0a2;
 }
+
+/* ....Footer section.... */
+
+footer {
+  background-color: #555555;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer p {
+  margin: 0;
+}
+.social-media {
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.social-media i {
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hr-footer {
+  width: 100%;
+}
+
+.footer-links {
+  text-align: center;
+}
+.about-us,
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.about-us li a,
+.services li a {
+  text-decoration: none;
+  color: #fafafab6;
+}
+
+.about-us li,
+.services li {
+  list-style: none;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: black;
+}
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper p {
+  color: #fafafab6;
+}
