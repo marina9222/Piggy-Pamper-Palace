@@ -434,3 +434,43 @@ footer p {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* ....Media Queries.... */
+
+@media screen and (min-width: 572px) {
+  .nav-link {
+    font-size: 20px;
+  }
+
+  #about-us p {
+    font-size: 25px;
+  }
+  .card-wrapper {
+    flex-direction: row;
+  }
+
+  .card img {
+    height: 200px;
+  }
+  .first-pair,
+  .second-pair {
+    width: 100%;
+  }
+
+  .card {
+    height: 450px;
+    margin-bottom: 30px;
+  }
+
+  #call-us img,
+  .grooming-card img,
+  .gpig-baths img {
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
