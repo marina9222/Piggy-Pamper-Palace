@@ -270,3 +270,47 @@ footer p {
 .contact-wrapper p {
   color: #fafafab6;
 }
+
+/* ....Grooming page.... */
+.header-img img {
+  max-width: 120px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.header-img {
+  display: flex;
+}
+
+.gpig-grooming {
+  background-color: #fafafa;
+}
+.back-link i {
+  font-size: 25px;
+}
+
+.grooming-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.grooming-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.grooming-title,
+.grooming-subtitle,
+.bath-title {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.grooming-subtitle {
+  font-size: 20px;
+  font-weight: 100;
+}
