@@ -64,3 +64,35 @@ ul li a:visited,
 ul li a {
   color: #fafafab6;
 }
+
+/* ....About us section .... */
+
+#about-us {
+  background-color: #fafafa;
+  margin-bottom: 40px;
+}
+#about-us h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+#about-us h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+#about-us p {
+  text-align: center;
+}
