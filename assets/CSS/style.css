@@ -166,6 +166,7 @@ hr {
   text-align: center;
   margin-bottom: 20px;
   font-size: 20px;
+  font-weight: bold;
 }
 .card-text {
   margin-bottom: 20px;
@@ -248,6 +249,12 @@ footer p {
 .services li a {
   text-decoration: none;
   color: #fafafab6;
+}
+
+.about-us li a:hover,
+.services li a:hover,
+.contact-wrapper p:hover {
+  color: #fafafa69;
 }
 
 .about-us li,
@@ -405,6 +412,10 @@ footer p {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
+  font-weight: bold;
+}
+.gpig-nail-clipping-subtitle {
+  text-align: center;
 }
 
 #carouselExampleCaptions {
@@ -512,5 +523,9 @@ footer p {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+  }
+
+  .btn {
+    width: 60%;
   }
 }
