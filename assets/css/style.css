@@ -202,8 +202,10 @@ hr {
   font-size: 14px;
 }
 
-.btn:hover {
+.btn:hover,
+.form-btn:hover {
   background-color: #ecd0a2;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* ....Footer section.... */
@@ -380,11 +382,6 @@ footer p {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.form-btn:hover {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-  background-color: #ecd0a2;
-}
-
 .form--mx-3 {
   margin-left: -12px;
   margin-right: -12px;
@@ -490,7 +487,8 @@ footer p {
   }
   .grooming-card,
   .gpig-baths,
-  .gpig-full-package {
+  .gpig-full-package,
+  .gpig-nail-clipping {
     padding: 20px;
     width: 50%;
     margin: 0 auto;
@@ -498,6 +496,13 @@ footer p {
 
   .btn {
     width: 60%;
+  }
+
+  .form-btn {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .hr-footer {
@@ -524,9 +529,10 @@ footer p {
     width: 100%;
     object-fit: cover;
   }
+
   #call-us img {
     width: 60%;
-    height: 300px;
+    height: 400px;
   }
 
   .header-wrapper {
