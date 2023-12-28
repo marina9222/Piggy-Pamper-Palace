@@ -183,14 +183,14 @@ hr {
   justify-content: center;
 }
 
-.btn {
+.btn,
+.form-btn {
   border-radius: 35px;
   padding: 15px 70px 15px 70px;
   border: 0;
   color: #555555;
-  display: flex;
   margin: 0 auto;
-  align-items: center;
+  text-align: center;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
@@ -199,6 +199,7 @@ hr {
   transition: background-color 1s;
   text-transform: uppercase;
   width: 100%;
+  font-size: 14px;
 }
 
 .btn:hover {
@@ -354,10 +355,9 @@ footer p {
   font-size: 16px;
   color: #07074d;
   margin-bottom: 12px;
+  font-family: "Roboto", sans-serif;
 }
 .form-label-2 {
-  font-weight: 600;
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -372,26 +372,16 @@ footer p {
   color: #6b7280;
   outline: none;
   resize: none;
+  font-family: "Raleway", sans-serif;
 }
 .form-input:focus {
   border-color: #555555;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.form-btn {
-  text-align: center;
-  font-size: 16px;
-  border-radius: 6px;
-  padding: 14px 32px;
-  border: none;
-  font-weight: 600;
-  background-color: #555555;
-  color: white;
-  width: 100%;
-  cursor: pointer;
-}
 .form-btn:hover {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  background-color: #ecd0a2;
 }
 
 .form--mx-3 {
