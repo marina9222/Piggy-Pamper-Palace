@@ -473,6 +473,7 @@ footer p {
   .card {
     height: 450px;
     margin-bottom: 30px;
+    flex: 100%;
   }
 
   #call-us img,
