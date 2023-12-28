@@ -474,7 +474,8 @@ footer p {
 
   #call-us img,
   .grooming-card img,
-  .gpig-baths img {
+  .gpig-baths img,
+  .gpig-full-package img {
     width: 70%;
     height: 250px;
     border-radius: 15px;
@@ -488,7 +489,8 @@ footer p {
     margin: 0 auto;
   }
   .grooming-card,
-  .gpig-baths {
+  .gpig-baths,
+  .gpig-full-package {
     padding: 20px;
     width: 50%;
     margin: 0 auto;
