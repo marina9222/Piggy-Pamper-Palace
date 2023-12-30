@@ -154,6 +154,11 @@ hr {
 
 .card {
   width: 100%;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img,
@@ -165,6 +170,13 @@ hr {
   margin-bottom: 20px;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  padding: 0;
 }
 
 .card-title {
@@ -201,6 +213,7 @@ hr {
   transition: background-color 1s;
   text-transform: uppercase;
   font-size: 14px;
+  width: 100%;
 }
 
 .btn:hover,
@@ -453,9 +466,6 @@ footer p {
   #about-us p {
     font-size: 25px;
   }
-  .card-wrapper {
-    flex-direction: row;
-  }
 
   .card img {
     height: 200px;
@@ -492,6 +502,11 @@ footer p {
     margin: 0 auto;
   }
 
+  .btn,
+  .form-btn {
+    width: 60%;
+  }
+
   .hr-footer {
     width: 60%;
   }
@@ -513,16 +528,16 @@ footer p {
 
   .card {
     width: 40%;
+    overflow: hidden;
+    height: auto;
   }
   .card img {
     height: 250px;
-    width: 100%;
-    object-fit: cover;
   }
 
   #call-us img {
     width: 60%;
-    height: 400px;
+    height: 450px;
   }
 
   .header-wrapper {
@@ -538,10 +553,6 @@ footer p {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-  }
-
-  .btn {
-    width: 60%;
   }
 
   .form-btn {
