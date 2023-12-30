@@ -146,15 +146,16 @@ hr {
 .card-wrapper {
   justify-content: center;
   display: flex;
-  flex-direction: column;
   margin-bottom: 30px;
   gap: 30px;
   max-width: 1200px;
+  flex-wrap: wrap;
 }
 
 .card {
   width: 100%;
 }
+
 .card img,
 .gpig-baths img,
 .gpig-full-package img {
@@ -186,10 +187,11 @@ hr {
 .btn,
 .form-btn {
   border-radius: 35px;
-  padding: 15px 70px 15px 70px;
+  padding: 15px;
   border: 0;
   color: #555555;
   margin: 0 auto;
+  display: block;
   text-align: center;
   cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -198,7 +200,6 @@ hr {
   background-color: #f1c47c;
   transition: background-color 1s;
   text-transform: uppercase;
-  width: 100%;
   font-size: 14px;
 }
 
@@ -459,12 +460,9 @@ footer p {
   .card img {
     height: 200px;
   }
-  .first-pair,
-  .second-pair {
-    width: 100%;
-  }
 
   .card {
+    width: 80%;
     height: 450px;
     margin-bottom: 30px;
   }
@@ -494,17 +492,6 @@ footer p {
     margin: 0 auto;
   }
 
-  .btn {
-    width: 60%;
-  }
-
-  .form-btn {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .hr-footer {
     width: 60%;
   }
@@ -524,6 +511,9 @@ footer p {
     margin-bottom: 0;
   }
 
+  .card {
+    width: 40%;
+  }
   .card img {
     height: 250px;
     width: 100%;
@@ -548,5 +538,16 @@ footer p {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+  }
+
+  .btn {
+    width: 60%;
+  }
+
+  .form-btn {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
