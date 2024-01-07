@@ -260,6 +260,7 @@ footer p {
 
 .hr-footer {
   width: 100%;
+  color: #fafafa !important;
 }
 
 .footer-links {
@@ -369,7 +370,7 @@ footer p {
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
-  background: white;
+  background: #ffffff;
 }
 .form-label {
   display: block;
@@ -388,7 +389,7 @@ footer p {
   padding: 12px 24px;
   border-radius: 6px;
   border: 1px solid #e0e0e0;
-  background: white;
+  background: #ffffff;
   font-weight: 500;
   font-size: 16px;
   color: #6b7280;
@@ -444,12 +445,16 @@ footer p {
   padding: 12px 24px;
   border-radius: 6px;
   border: 1px solid #e0e0e0;
-  background: white;
+  background: #ffffff;
   font-weight: 500;
   font-size: 16px;
   color: #6b7280;
   outline: none;
   resize: none;
+}
+
+.nail-clip-text {
+  padding-top: 20px !important;
 }
 
 /* ....Bath page.... */
@@ -465,7 +470,7 @@ footer p {
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
-  background: white;
+  background: #ffffff;
   padding: 15px;
   height: 100vh;
 }
