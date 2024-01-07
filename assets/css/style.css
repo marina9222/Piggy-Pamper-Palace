@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ....Header section.... */
 
 h1 {
@@ -155,6 +159,9 @@ hr {
 .card {
   width: 100%;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-img img,
@@ -479,7 +486,7 @@ footer p {
   }
   .card {
     width: 45%;
-    padding: 0;
+
     /* margin-bottom: 30px; */
   }
 
@@ -539,7 +546,7 @@ footer p {
   }
 
   .card-body {
-    height: 200px;
+    /* height: 200px; */
   }
   .card img {
     height: 250px;
