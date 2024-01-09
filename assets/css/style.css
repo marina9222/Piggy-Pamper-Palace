@@ -517,13 +517,17 @@ footer p {
   .grooming-card img,
   .gpig-baths img,
   .gpig-full-package img {
-    width: 70%;
+    /* width: 70%; */
     height: 250px;
     border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+  }
+
+  #call-us img {
+    width: 70%;
   }
 
   .grooming-cards {
