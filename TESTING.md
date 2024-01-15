@@ -21,9 +21,9 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-<!-- | File      | Jigsaw URL                                                                                                           | Screenshot                                            | Notes           |
-| --------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors | -->
+| File      | Jigsaw URL                                                                                                           | Screenshot                                      | Notes                                                        |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace) | ![screenshot](documentation/css-validation.png) | Pass: No Errors of my CSS , showing Errors with Font Awesome |
 
 ## Browser Compatibility
 
