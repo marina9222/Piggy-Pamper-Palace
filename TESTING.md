@@ -44,4 +44,16 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Dekstop           | ![screenshot](documentation/dekstop-resp-home.png)  | ![screenshot](documentation/dekstop-resp-call-us.png)  | ![screenshot](documentation/dekstop-resp-our-services.png)  | ![screenshot](documentation/dekstop-resp-form.png)  | ![screenshot](documentation/dekstop-resp-baths.png)  | ![screenshot](documentation/dekstop-resp-nail-clipping.png)  | ![screenshot](documentation/dekstop-resp-full-package.png)  | ![screenshot](documentation/dekstop-resp-grooming.png)  | ![screenshot](documentation/dekstop-resp-confirmation.png)  | Works as expected |
 | Iphone 13         | ![screenshot](documentation/iphone13-resp-home.png) | ![screenshot](documentation/iphone13-resp-call-us.png) | ![screenshot](documentation/iphone13-resp-our-services.png) | ![screenshot](documentation/iphone13-resp-form.png) | ![screenshot](documentation/iphone13-resp-baths.png) | ![screenshot](documentation/iphone13-resp-nail-clipping.png) | ![screenshot](documentation/iphone13-resp-full-package.png) | ![screenshot](documentation/iphone13-resp-grooming.png) | ![screenshot](documentation/iphone13-resp-confirmation.png) | Works as expected |
 
-|
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page          | Mobile                                                           | Desktop                                                           | Notes                                  |
+| ------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
+| Home          | ![screenshot](documentation/lighthouse-mobile-home.png)          | ![screenshot](documentation/lighthouse-dekstop-home.png)          | Some minor warnings                    |
+| Book          | ![screenshot](documentation/lighthouse-mobile-form.png)          | ![screenshot](documentation/lighthouse-dekstop-form.png)          | Some minor warnings                    |
+| Grooming      | ![screenshot](documentation/lighthouse-mobile-grooming.png)      | ![screenshot](documentation/lighthouse-dekstop-grooming.png)      | Some minor warnings                    |
+| Nail clipping | ![screenshot](documentation/lighthouse-mobile-nail-clipping.png) | ![screenshot](documentation/lighthouse-dekstop-nail-clipping.png) | Slow response time due to large images |
+| Baths         | ![screenshot](documentation/lighthouse-mobile-baths.png)         | ![screenshot](documentation/lighthouse-dekstop-baths.png)         | Slow response time due to large images |
+| Full package  | ![screenshot](documentation/lighthouse-mobile-full-package.png)  | ![screenshot](documentation/lighthouse-dekstop-full-package.png)  | Slow response time due to large images |
+| Confirmation  | ![screenshot](documentation/lighthouse-mobile-confirmation.png)  | ![screenshot](documentation/lighthouse-dekstop-confirmation.png)  | Some minor warnings                    |
