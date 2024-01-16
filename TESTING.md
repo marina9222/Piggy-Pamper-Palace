@@ -83,3 +83,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ![screenshot](documentation/bug04.png)
 
 - To fix this, I found a similar color with more contrast.
+
+- The arrow on the top left of the nail clipping section wasn't at the same place as the arrow in the other sections.
+
+  ![screenshot](documentation/bug05.png)
+
+  - To fix this, I had to change the class container in the header section to nail-clipping-container as container was already used with a bootstrap on the page and had already made styles.
+
+## Unfixed Bugs
