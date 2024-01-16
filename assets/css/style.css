@@ -22,7 +22,8 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.container {
+.container,
+.nail-clipping-container {
   padding: 20px;
   width: 100%;
 }
