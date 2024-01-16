@@ -57,3 +57,5 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Baths         | ![screenshot](documentation/lighthouse-mobile-baths.png)         | ![screenshot](documentation/lighthouse-dekstop-baths.png)         | Slow response time due to large images |
 | Full package  | ![screenshot](documentation/lighthouse-mobile-full-package.png)  | ![screenshot](documentation/lighthouse-dekstop-full-package.png)  | Slow response time due to large images |
 | Confirmation  | ![screenshot](documentation/lighthouse-mobile-confirmation.png)  | ![screenshot](documentation/lighthouse-dekstop-confirmation.png)  | Some minor warnings                    |
+
+## Bugs
