@@ -16,6 +16,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Nail-clipping | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace%2Fnail-clipping.html) | ![screenshot](documentation/html-validation-nail-clipping.png) | Pass  |
 | Baths         | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace%2Fbaths.html)         | ![screenshot](documentation/html-validation-baths.png)         | Pass  |
 | Full package  | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace%2Ffull-package.html)  | ![screenshot](documentation/html-validation-full-package.png)  | Pass  |
+| Confirmation  | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarina9222.github.io%2FPiggy-Pamper-Palace%2Fconfirmation.html)  | ![screenshot](documentation/html-validation-confirmation.png)  | Pass  |
 
 ### CSS
 
