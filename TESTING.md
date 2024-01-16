@@ -59,3 +59,27 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Confirmation  | ![screenshot](documentation/lighthouse-mobile-confirmation.png)  | ![screenshot](documentation/lighthouse-dekstop-confirmation.png)  | Some minor warnings                    |
 
 ## Bugs
+
+- The buttons in the our services section werent aligned.
+
+![screenshot](documentation/bug01.png)
+
+- To fix this, I added display:flex , justify-content:space-between and flex-direction:column to the .card.
+
+- The carousel text color was white and as the background images have a lot of white as well made the text not so visible.
+
+![screenshot](documentation/bug02.png)
+
+- To fix this, I have added the following data-bs-theme="dark" in the main wrapper of the carousel so it could change the text color to dark and be more visible.
+
+- The footer in the nail clipping section wasnt covering the full width in the dekstop view.
+
+  ![screenshot](documentation/bug03.png)
+
+  - To fix this, I have added the container fluid class in the footer.
+
+- The color on hover in the nav bar had a low contrast.
+
+![screenshot](documentation/bug04.png)
+
+- To fix this, I found a similar color with more contrast.
