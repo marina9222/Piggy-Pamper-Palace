@@ -91,3 +91,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
   - To fix this, I had to change the class container in the header section to nail-clipping-container as container was already used with a bootstrap on the page and had already made styles.
 
 ## Unfixed Bugs
+
+- In the our services section the title of each card has a blank space on top and is not aligned with the other card's titles.
+
+  ![screenshot](documentation/bug06.png)
+
+  - Attempted fix: I tried to remove the gap between the text , I tried to remove the justify content :space-between, tried to change the widths of the cards , of the card's image nothing would fix it.
